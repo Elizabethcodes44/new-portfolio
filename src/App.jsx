@@ -1,4 +1,4 @@
-
+import Navbar from './Components/Navbar/navbar'
 import './App.scss'
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
   return (
     <>
     <div>
-      <section>Hero</section>
+      <section><Navbar></Navbar></section>
       <section>Parallax</section>
       <section>Services</section>
       <section>Parallax</section>
