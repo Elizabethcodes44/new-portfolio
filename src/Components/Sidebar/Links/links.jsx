@@ -23,7 +23,10 @@ const listVariants = {
   },
 };
 export default function Links() {
-  const links = ["Home", "Portfolio", "Contact", "About"];
+  const links = ["Home", 
+  "About",
+  "Portfolio", 
+  "Contact"];
 
   return (
     <motion.div className="Links" variants={variants}>

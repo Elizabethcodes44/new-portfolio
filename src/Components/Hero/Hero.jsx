@@ -30,6 +30,7 @@ const sliderVariants = {
         x: "-220%", //this will prevent ıt from goıng through the rıght. dont add mınus ıf you want ıt to go through the rıght
         transition: {
             repeat: Infinity,
+            repeatType: "mirror",
             duration: 20,
         }
     }

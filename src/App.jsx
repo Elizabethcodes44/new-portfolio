@@ -1,6 +1,9 @@
 import Navbar from "./Components/Navbar/navbar";
 import "./App.scss";
 import Hero from "./Components/Hero/Hero";
+import Parallax from "./Components/Parallax/Parallax";
+import About from "./Components/About/About";
+import Portfolio from "./Components/Portfolio/Portfolio";
 
 function App() {
   return (
@@ -10,12 +13,10 @@ function App() {
           <Navbar></Navbar>
           <Hero></Hero>
         </section>
-        <section id="About">Parallax</section>
-        <section>About</section>
-        <section id="Portfolio">Parallax</section>
-        <section>Project1</section>
-        <section>Project2</section>
-        <section>Project3</section>
+        <section id="About"><Parallax type ="about"/></section>
+        <section><About/></section>
+        <section id="Portfolio"><Parallax type = "portfolio"/></section>
+        <section><Portfolio></Portfolio></section>
         <section id="Contact">Contact</section>
       </div>
     </>
