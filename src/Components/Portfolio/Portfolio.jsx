@@ -1,4 +1,4 @@
-{/*import "./Portfolio.scss";
+import "./Portfolio.scss";
 import {useRef} from "react";
 import sheleads from "/sheleads.jpg";
 import { useTransform } from "framer-motion";
@@ -72,4 +72,4 @@ export default function Portfolio() {
             {projects.map((item)=>(<Single item={item} key={item.id} />))}
         </div>
     )
-} */}
+} 

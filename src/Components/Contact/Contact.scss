@@ -22,6 +22,17 @@ span {
 
    .formContainer {
     flex: 1;
+    position: relative;
+    .phoneImage {
+        stroke: greenyellow;
+        position: absolute;
+        margin: auto;
+        z-index:-1;
+        svg{
+            height: 400px;
+            width: 400px
+        }
+    }
     form {
         display: flex;
         flex-direction: column;
