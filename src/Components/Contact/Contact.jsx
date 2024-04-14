@@ -7,7 +7,7 @@ from "framer-motion";
 
 const variants = {
   initial: {
-    y: 500,
+    y: 100,
     opacity: 0,
   },
   animate: {
@@ -64,7 +64,7 @@ export default function Contact() {
         </motion.div>
       </motion.div>
       <div className="formContainer">
-        <motion.div initial= {{opacity:1}} whileInView = {{opacity: 0}} transition= {{delay: 3, duration:1}}className="phoneImage">
+        <motion.div initial= {{opacity:1}} whileInView = {{opacity: 0}} transition= {{delay: 1, duration:1}}className="phoneImage">
        
 <svg fill="#000000" height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
 	viewBox="0 0 490.726 490.726" xmlSpace="preserve">
@@ -101,7 +101,7 @@ export default function Contact() {
   </svg> 
         </motion.div>
         <motion.form ref = {formRef}
-        onSubmit= {sendEmail}initial= {{opacity:0}} whileInView = {{opacity: 1}} transition= {{delay: 4, duration:1}}>
+        onSubmit= {sendEmail}initial= {{opacity:0}} whileInView = {{opacity: 1}} transition= {{delay: 2, duration:1}}>
           <input type="text" required placeholder="Please input your name" name = "name" />
           <input type="email" required placeholder="Please input your E-mail" name ="email"/>
           <textarea rows={10} placeholder="Drop a Message"name = "message"/>

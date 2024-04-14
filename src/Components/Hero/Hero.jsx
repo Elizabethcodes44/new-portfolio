@@ -46,10 +46,7 @@ export default function Hero({ setShowPortfolio, setShowContact}) {
         <motion.div className="textContainer" variants= {textVariants} initial = "initial" animate= "animate">
           <motion.h2 variants= {textVariants}>ELIZABETH KUJORE</motion.h2>
           <motion.h1 variants= {textVariants}>Software developer</motion.h1>
-          <motion.div variants= {textVariants}className="buttons">
-            <motion.button onClick={() => {setShowPortfolio(true); setShowContact(false)}}  variants= {textVariants}>Projects</motion.button>
-            <motion.button onClick={() => {setShowContact(true); setShowPortfolio(false)}}variants= {textVariants}>Contact Me</motion.button>
-          </motion.div>
+          
           <motion.img variants= {textVariants} animate = "scrollAnimation" src="/scroll.png" alt="" />
         </motion.div>
       </div>
