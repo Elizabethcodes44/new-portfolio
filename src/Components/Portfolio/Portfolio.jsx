@@ -19,7 +19,7 @@ const projects = [
     title: "E-commerce App",
     img: candy,
     desc: "This ongoing live user-friendly website allows users to easily browse through the collections, .",
-    url: "https://sheleads.netlify.app/",
+    url: "https://candyglitterz.netlify.app/",
   },
   {
     id: 3,
