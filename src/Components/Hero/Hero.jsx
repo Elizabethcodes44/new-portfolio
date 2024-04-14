@@ -1,5 +1,8 @@
 import "./Hero.scss";
-import {motion} from "framer-motion"
+import {motion} from "framer-motion";
+import {useState} from "react";
+import Projects from "../Portfolio/Portfolio.jsx";
+import Contact from "../Contact/Contact.jsx";
 const textVariants = {
     initial: {
       x: -500,
@@ -35,7 +38,8 @@ const sliderVariants = {
         }
     }
 }
-export default function Hero() {
+export default function Hero({ setShowPortfolio, setShowContact}) {
+  
   return (
     <div className="Hero">
       <div className="wrapper">
@@ -43,8 +47,8 @@ export default function Hero() {
           <motion.h2 variants= {textVariants}>ELIZABETH KUJORE</motion.h2>
           <motion.h1 variants= {textVariants}>Software developer</motion.h1>
           <motion.div variants= {textVariants}className="buttons">
-            <motion.button variants= {textVariants}>Projects</motion.button>
-            <motion.button variants= {textVariants}>Contact Me</motion.button>
+            <motion.button onClick={() => {setShowPortfolio(true); setShowContact(false)}}  variants= {textVariants}>Projects</motion.button>
+            <motion.button onClick={() => {setShowContact(true); setShowPortfolio(false)}}variants= {textVariants}>Contact Me</motion.button>
           </motion.div>
           <motion.img variants= {textVariants} animate = "scrollAnimation" src="/scroll.png" alt="" />
         </motion.div>

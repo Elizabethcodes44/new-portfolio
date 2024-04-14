@@ -66,8 +66,8 @@ export default function Contact() {
       <div className="formContainer">
         <motion.div initial= {{opacity:1}} whileInView = {{opacity: 0}} transition= {{delay: 3, duration:1}}className="phoneImage">
        
-<svg fill="#000000" height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
-	 viewBox="0 0 490.726 490.726" xml:space="preserve">
+<svg fill="#000000" height="800px" width="800px" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" 
+	viewBox="0 0 490.726 490.726" xmlSpace="preserve">
 <g>
 	<g>
 		<path 

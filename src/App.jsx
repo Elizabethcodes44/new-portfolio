@@ -1,26 +1,36 @@
 import Navbar from "./Components/Navbar/navbar";
 import "./App.scss";
+import {useState} from "react";
 import Hero from "./Components/Hero/Hero";
-import Parallax from "./Components/Parallax/Parallax";
+
 import About from "./Components/About/About";
 import Portfolio from "./Components/Portfolio/Portfolio";
 import Contact from "./Components/Contact/Contact";
 import Cursor from "./Components/Cursor/Cursor";
 
 function App() {
+  const [showPortfolio, setShowPortfolio] = useState(false);
+  const [showContact, setShowContact] = useState(false);
   return (
     <>
       <div className="appContainer">
-      <Cursor/>
+        <Cursor />
         <section id="Home">
           <Navbar></Navbar>
-          <Hero></Hero> 
+          <Hero
+          setShowPortfolio={setShowPortfolio} 
+          setShowContact={setShowContact} ></Hero>
         </section>
-      <section id="About"><Parallax type ="about"/></section> <section><About/></section>
-        <section id="Portfolio"><Parallax type = "portfolio"/></section>
-        <section><Portfolio/></section>
-  <section id="Contact"><Contact></Contact></section> 
-        
+        <section id="About">
+          <About />
+        </section>
+
+        <section id="Portfolio">
+         <Portfolio />
+        </section>
+        <section id="Contact">
+        <Contact />
+        </section>
       </div>
     </>
   );

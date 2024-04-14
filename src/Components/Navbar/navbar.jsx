@@ -11,7 +11,7 @@ function Navbar() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.5 }}
         >
-          Portfolio
+          <a href = "https://app.enhancv.com/share/c9ddbccb/?utm_medium=growth&utm_campaign=share-resume&utm_source=dynamic">Resume</a>
         </motion.span>
         <div className="social">
           <a href="https://github.com/Elizabethcodes44">
