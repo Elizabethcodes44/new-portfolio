@@ -98,7 +98,7 @@ export default function Contact() {
 		<circle cx="290.326" cy="151.413" r="13"/>
 	</g>
 </g>
-</svg>
+  </svg> 
         </motion.div>
         <motion.form ref = {formRef}
         onSubmit= {sendEmail}initial= {{opacity:0}} whileInView = {{opacity: 1}} transition= {{delay: 4, duration:1}}>

@@ -5,7 +5,7 @@ import Hero from "./Components/Hero/Hero";
 
 import About from "./Components/About/About";
 import Portfolio from "./Components/Portfolio/Portfolio";
-//import Contact from "./Components/Contact/Contact";
+import Contact from "./Components/Contact/Contact";
 import Cursor from "./Components/Cursor/Cursor";
 
 function App() {
@@ -22,8 +22,10 @@ function App() {
         <section id="About">
           <About />
         </section>
-
-        <section id="Portfolio">
+        <section id="Contact">
+        <Contact />
+        </section>
+<section id="Portfolio">
          <Portfolio />
         </section>
         
