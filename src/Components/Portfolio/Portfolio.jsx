@@ -12,24 +12,28 @@ const projects = [
     title: "SheLeads App",
     img: sheleads,
     desc: "SheLeads is an ongoing full-stack app designed for expecting mothers. .",
+    url: "https://sheleads.netlify.app/",
   },
   {
     id: 2,
     title: "E-commerce App",
     img: candy,
     desc: "This ongoing live user-friendly website allows users to easily browse through the collections, .",
+    url: "https://sheleads.netlify.app/",
   },
   {
     id: 3,
     title: "Recipe App",
     img: foodApp,
     desc: " An ongoing recipe app tailored for Nigerians residing in Istanbul, Turkey. ",
+    url: "https://sheleads.netlify.app/",
   },
   {
     id: 4,
     title: "Real Estate App",
     img: realestate,
     desc: "This ongoing real estate app is set to revolutionize the property market with its comprehensive features and seamless user experience.",
+    url: "https://sheleads.netlify.app/",
   },
 ];
 function Section({ project }) {
@@ -40,16 +44,18 @@ function Section({ project }) {
   });
   const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
   return (
-    <section >
+    <section>
       <div className="container">
         <div className="wrapper">
-            <div ref={ref}className="imageContainer">
-          <img src={project.img} alt="projectimage" />
+          <div ref={ref} className="imageContainer">
+            <img src={project.img} alt="projectimage" />
           </div>
           <motion.div style={{ y }} className="textContainer">
             <h2>{project.title}</h2>
             <p>{project.desc}</p>
-            <button>See Project</button>
+            <a href={project.url} target="_blank">
+              <button>See Project</button>
+            </a>
           </motion.div>
         </div>
       </div>
