@@ -42,8 +42,8 @@ export default function About() {
           
             I am a Junior Full Stack Developer based in Turkey, passionate about
             continuous learning and skill expansion. I have a diverse skill set
-            ranging from front-end (HTML, CSS, JavaScript, React JS) to back-end
-            (Node.js, Express) development.  Outside of coding, I love exploring new places, drawing
+            ranging from front-end (HTML, CSS, SCSS, JavaScript, React JS) to back-end
+            (Node.js, Postgresql, Express) development.  Outside of coding, I love exploring new places, drawing
             creativity from different cultures. Additionally, I enjoy making
             clothes for my family, emphasizing craftsmanship and attention to
             detail—values that I bring to my coding projects. Open to
@@ -56,14 +56,15 @@ export default function About() {
       </motion.div>
       <motion.div variants ={variants}className="listContainer">
         <div className="techStack">
-          <h2>Tech Stack</h2>
+         
           <div className="box">
             <img src="/html.svg" alt="html" />
-            <img src="express.svg" />
-            <img src="/html.svg" alt="html" />
-            <img src="/html.svg" alt="html" />
-            <img src="/html.svg" alt="html" />
-            <img src="/html.svg" alt="html" />
+            <img src = "/react.svg" alt="react"/>
+            <img src="express.svg" alt="express"/>
+            <img src="/node.svg" alt="node" />
+            <img src="/css.svg" alt="html" />
+            <img src="/javascript.svg" alt="javascript" />
+            <img src="/postgresql.svg" alt="html" />
           </div>
         </div>
       </motion.div>
