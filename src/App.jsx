@@ -22,12 +22,12 @@ function App() {
         <section id="About">
           <About />
           </section> 
-       {/*} <section id="Contact">
+       <section id="Contact">
         <Contact />
-        </section>   */}
-{/* <section id="Portfolio">
+        </section>   
+ <section id="Portfolio">
          <Portfolio />
-      </section> */}
+      </section> 
         
       </div>
     </>

@@ -18,7 +18,7 @@ const variants = {
 }
 export default function About() {
   return (
-    <motion.div className="aboutMe" variants ={variants} initial = "initial" whileInView="animate" >
+    <motion.div className="aboutMe" variants ={variants} initial = "initial" animate ="animate" >
       <motion.div variants ={variants}className="textContainer">
         <p>
           I specialize in crafting software solutions <br />
