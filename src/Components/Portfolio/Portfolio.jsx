@@ -26,14 +26,14 @@ const projects = [
     title: "Recipe App",
     img: foodApp,
     desc: " An ongoing recipe app tailored for Nigerians residing in Istanbul, Turkey. ",
-    url: "https://sheleads.netlify.app/",
+    url: "https://github.com/Elizabethcodes44/react-naija-recipe-App",
   },
   {
     id: 4,
     title: "Real Estate App",
     img: realestate,
     desc: "This ongoing real estate app is set to revolutionize the property market with its comprehensive features and seamless user experience.",
-    url: "https://sheleads.netlify.app/",
+    url: "https://github.com/Elizabethcodes44/Gravano",
   },
 ];
 function Section({ project }) {
