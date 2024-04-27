@@ -9,10 +9,10 @@ import { useRef, useEffect } from "react";
 const projects = [
   {
     id: 1,
-    title: "SheLeads App",
+    title: "Bump Tech App",
     img: sheleads,
-    desc: "SheLeads is an ongoing full-stack app designed for expecting mothers. .",
-    url: "https://sheleads.netlify.app/",
+    desc: "Bump Tech is a full-stack app designed for expecting mothers.",
+    url: "https://bumptech.netlify.app/",
   },
   {
     id: 2,
