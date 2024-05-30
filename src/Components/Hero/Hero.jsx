@@ -1,8 +1,6 @@
 import "./Hero.scss";
 import {motion} from "framer-motion";
-import {useState} from "react";
-import Projects from "../Portfolio/Portfolio.jsx";
-import Contact from "../Contact/Contact.jsx";
+
 const textVariants = {
     initial: {
       x: -500,
@@ -38,7 +36,7 @@ const sliderVariants = {
         }
     }
 }
-export default function Hero({ setShowPortfolio, setShowContact}) {
+export default function Hero() {
   
   return (
     <div className="Hero">

@@ -29,18 +29,18 @@ export default function About() {
       <motion.div variants ={variants}className="titleContainer">
         <div className="title">
           <img src="/keyboard.jpg" alt="laptop" />
-          <h1>A junior</h1>
+    
         </div>
         <div className="title">
           <h1>
-            <motion.b whileHover={{color:"red"}}>Full Stack</motion.b> developer
+            <motion.b whileHover={{color:"red"}}>A Full Stack</motion.b> developer
           </h1>
         </div>
       </motion.div>
       <motion.div variants ={variants}className="paragraph">
         <p>
           
-            I am a Junior Full Stack Developer based in Turkey, passionate about
+            I am a Full Stack Developer based in Turkey, passionate about
             continuous learning and skill expansion. I have a diverse skill set
             ranging from front-end (HTML, CSS, SCSS, JavaScript, React JS) to back-end
             (Node.js, Postgresql, Express) development.  Outside of coding, I love exploring new places, drawing

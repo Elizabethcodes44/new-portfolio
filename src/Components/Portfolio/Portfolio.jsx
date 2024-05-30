@@ -90,5 +90,5 @@ export default function Portfolio() {
         <Section project={project} key={project.id} />
       ))}
     </div>
-  );
+  ); 
 }

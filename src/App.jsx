@@ -9,25 +9,24 @@ import Contact from "./Components/Contact/Contact";
 import Cursor from "./Components/Cursor/Cursor";
 
 function App() {
-  
   return (
     <>
       <div className="appContainer">
         <Cursor />
         <section id="Home">
           <Navbar></Navbar>
-          <Hero
-           ></Hero>
+          <Hero></Hero>
+        </section>
+        <section id="Contact">
+          <Contact />
         </section>
         <section id="About">
           <About />
-          </section> 
-       <section id="Contact">
-        <Contact />
-        </section>   
- <section id="Portfolio">
-         <Portfolio />
-      </section> 
+        </section>
+
+        <section id="Portfolio">
+          <Portfolio />
+        </section>
         
       </div>
     </>
