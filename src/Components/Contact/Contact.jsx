@@ -27,8 +27,8 @@ export default function Contact() {
         e.preventDefault();
     
         emailjs
-          .sendForm('service_limbdkv', 'template_8nr2quq', formRef.current, {
-            publicKey: 'ea6qEYPVMhvYPypbN',
+          .sendForm('service_limbdkv', 'template_h7qwhpy', formRef.current, {
+            publicKey: 'VT5Ejv0PgIcwwvlPk',
           })
           .then(
             (result) => {
